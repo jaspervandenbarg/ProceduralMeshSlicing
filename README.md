@@ -3,7 +3,7 @@ Dynamicsly slicing mesh objects in Unity
 
 Works for both convex and concave meshes using the Ear Clipping algorithm
 
-Place the MeshSlicer script on a gameobject you want to slice with and select the layer you want to slice.
+Place the MeshSlicer script on the gameobject you want to slice with and select the layer you want to slice.
 
 A data correction can be done for the new slices which will result in cleaner meshes but takes a longer time to calculate.
 The MeshSlicer works for both concave and convex meshes. When only slicing convex meshes 'Concave' should be unchecked. When slicing both concave and convex meshes 'Concave' should be checked.
